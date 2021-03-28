@@ -1,0 +1,37 @@
+p {
+  text-align: left;
+}
+.menu{
+    font-family: fantasy;
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    list-style: none;
+}
+.links{
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    display: inline;
+}
+.links:hover{
+    background-color: darkturquoise;
+}
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    background: linear-gradient(#03fcdf 0%, #034afc 25%, #4da142 50%, #ffe603 75%, #f51000 )
+}
+img{
+    transition: transform;
+}
+img:hover{
+    transform: scale(0.9)
+}
+html{
+    scroll-behavior: smooth;
+}
